@@ -35,17 +35,12 @@ Route::group([
 //
 //    $user = Auth::user();
 //
-//    if ($cookies > $user->wallet) {
-//        return new \Illuminate\Http\Response('There is not enough money in the balance', \Illuminate\Http\Response::HTTP_UNPROCESSABLE_ENTITY);
-//    }
-//
 //    $new_amount = $user->wallet - $cookies;
 //
 //    $user->update(['wallet' => $new_amount]);
 //
 //    Log:info('User ' . $user->email . ' have bought ' . $cookies . ' cookies'); // we need to log who ordered and how much
 //
-////    return 'Success, you have bought ' . $cookies . ' cookies!';
-//    return 'Success, you have bought ' . $cookies . ' ' . Str::plural('cookie', $cookies) . '!';
+//    return 'Success, you have bought ' . $cookies . ' cookies!';
 //
 //});
